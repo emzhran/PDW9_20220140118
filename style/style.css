@@ -1,0 +1,84 @@
+/* mengatur elemen body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(181, 214, 221);
+}
+
+/* mengatur elemen header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* mengatur elemen h1 pada elemen header */
+header h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* mengatur elemen section */
+section {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* mengatur class card */
+.card {
+    width: 300px;
+    margin: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* mengatur elemen h1 pada class booking */
+.booking h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* mengatur elemen h2 pada class card */
+.card h2{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+/* mengatur elemen img pada class card */
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+/* mengatur class card-content */
+.card-content {
+    padding: 20px;
+}
+
+/* mengatur elemen h2 pada class h2 */
+.card-content h2 {
+    margin-top: 0;
+}
+
+/* mengatur elemen p pada class card-content */
+.card-content p {
+    color: #666;
+}
+
+/* mengatur elemen label */
+label{
+    margin-bottom: 15px;
+}
+
+
+/* mengatur class footer */
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem 0;
+}
